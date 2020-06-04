@@ -1,0 +1,45 @@
+<style>
+		
+   
+  #fundo{
+    background-position:center;
+    position: absolute;
+
+      }
+	
+		#imagen{
+
+  position: absolute; 
+	left: 500px; /* posiciona a 90px para a esquerda */ 
+	top: 70px; /* posiciona a 70px para baixo */
+	opacity: 0.5;/*Opacidade da imagen*/
+
+	
+  }
+
+  #Palavras
+  {
+    color: black;
+    left:30px;
+    position: center;
+    position: absolute;
+    top:120px;
+  }
+
+  #QuemSomos{
+    position: absolute;
+    left: 600px;
+    top: 60px;
+  	padding: 15px 10px;/*Tamanho da barra do menu*/
+   display: inline-block;/*tipo do dsplay bloco*/
+   color: #000000;/*Cor da barra*/
+   font-family: 'Arial';
+	font-size: 20pt;
+
+  }
+
+
+		</style>
+	</head>
+
+	<body>

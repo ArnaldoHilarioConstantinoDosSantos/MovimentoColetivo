@@ -1,0 +1,59 @@
+<?php include("conexao.php"); ?>
+<html>
+<head>
+  <meta charset="utf8" />
+  
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="Menu.Css">
+  <link rel="stylesheet" href="Cadastro.CSS">
+  <link rel="shortcut icon" href="logo.png">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+ 
+<body>
+  <img src= "fundo.jpg" id="fundo">
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+     
+  <div class="content">         
+  <div id="cadastro">
+      <form action="recebe.php" method="POST"> 
+          <h1>Cadastro</h1>
+          <h2>Cadastre-se aqui para receber mais informações:</h2><br />
+           
+          <p> 
+            <label>Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" /><br />
+          </p>
+           
+          <p> 
+            <label>Email:</label>
+            <input type="text" name="email" placeholder="contato@provedor.com" /><br /> 
+          </p>
+           
+          <p> 
+            <label>Telefone:</label>
+            <input type="text" name="telefone" placeholder="(xx)9..." /><br />
+          </p>
+          <br />
+          <input type="submit" value="Cadastrar"/>          
+      </form>
+   </div>
+  </div>
+  </div>  
+</body>
+
+<div id="lateral">
+<div id="menu">    
+  <h1 class="link-titulo"> Menu</h1>
+    <ul class="box">          
+      <li> <a href="index.html">Home</a> </li>
+      <li> <a href="Cadastro.html">Cadastro</a> </li>
+      <li> <a href="#">ONG'S </a> </li>
+      <li> <a href="Contato.html">Contato</a> </li>
+      <li> <a href="Sobre.html">Sobre nós</a> </li>
+    </ul> 
+</div> 
+</div>
+</html>

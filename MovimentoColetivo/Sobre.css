@@ -1,0 +1,51 @@
+<style>
+		
+   
+  #fundo{
+    width: 100%;
+    background-position:absolute;
+    position: absolute;
+    overflow: hidden;
+
+      }
+	
+		
+  #logo{
+    position: fixed;
+    width: 30%;
+
+  }
+  #Sobre1{
+    font-family: Arial;
+    font-size: 30px;
+    font-style: bold;
+    position: center, absolute;
+    left: 500
+    top: 120px;
+
+  }
+  #Palavras
+  {
+    font-family: Arial;
+    font-size: 15px;
+    left:100px;
+    position: center;
+    position: absolute;
+    top:150px;
+  }
+
+  #QuemSomos{
+    position: absolute;
+    left: 600px;
+    top: 60px;
+  	padding: 15px 10px;/*Tamanho da barra do menu*/
+   display: inline-block;/*tipo do dsplay bloco*/
+   color: #000000;/*Cor da barra*/
+   font-family: 'Arial';
+	font-size: 20pt;
+
+  }
+
+
+		</style>
+	

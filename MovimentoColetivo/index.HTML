@@ -1,0 +1,87 @@
+<!--
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8" />
+ <head>
+ <center><title>Movimento Coletivo</title></center>
+<link rel="stylesheet" href="Menu.Css">
+ </head>
+ <div id="lateral">
+<div id="menu">
+
+       
+
+<h1 class="link-titulo"> Menu</h1>
+
+  <ul class="box">          
+          <li> <a href="index.html">Home</a> </li>
+          <li> <a href="Cadastro.html">Cadastro</a> </li>
+          <li> <a href="#">ONG'S </a> </li>
+          <li> <a href="Contato.html">Contato</a> </li>
+          <li> <a href="Sobre.html">Sobre nós</a> </li>
+  </ul> 
+</div> 
+</div>
+
+ <body>
+
+<center><img src ="logo.png" id="imagen"width="400px" reight ="700px"></center>
+ <img src= "fundo.jpg" id="fundo">
+ </body>
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+
+ <title>Movimento Coletivo</title>
+<link rel="stylesheet" href="Menu.Css">
+<link rel="shortcut icon" href="logo.png">
+ </head>
+<div id="lateral">
+<div id="menu">      
+
+<h1 class="link-titulo"> Menu</h1>
+
+  <ul class="box">          
+     <li> <a href="index.html">Home</a> </li>
+          <li> <a href="Cadastro.html">Cadastro</a> </li>
+          <li> <a href="#">ONG'S <samp></samp> </a> </li>
+          <li> <a href="Contato.html">Contato <samp></samp> </a> </li>
+          <li> <a href="Sobre.html">Sobre nós</a> </li>
+  </ul>
+</div> 
+</div> 
+
+ <body>
+<center><img src ="logo.png" id="imagen"width="400px" reight ="700px"></center>
+ <img src= "fundo.jpg" id="fundo">
+
+<p>Clique no botão para exibir a caixa de confirmação.</p>
+ 
+<button onclick="funcao1()">Clique aqui</button>
+ 
+<p id="demo"></p>
+ 
+<script>
+function funcao1()
+{
+var x;
+var r=confirm("Escolha um valor!");
+if (r==true)
+  {
+  x="você pressionou OK!";
+  }
+else
+  {
+  x="Você pressionou Cancelar!";
+  }
+document.getElementById("demo").innerHTML=x;
+}
+
+</script>
+   
+ </body>
+ 
+  
+  
